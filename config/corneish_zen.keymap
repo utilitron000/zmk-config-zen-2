@@ -34,10 +34,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q           &kp W        &kp E               &kp R               &kp T                 &kp Y                &kp U            &kp I                 &kp O          &kp P              &none
-&none  &kp A           &kp S        &kp D               &kp F               &kp G                 &kp H                &kp J            &kp K                 &kp L          &kp SEMI           &none
-&none  &mt LEFT_ALT Z  &mt LCTRL X  &mt LEFT_SHIFT C    &mt LC(LEFT_GUI) V  &kp B                 &kp N                &mt LEFT_GUI M   &mt LEFT_SHIFT COMMA  &mt LCTRL DOT  &mt LEFT_ALT FSLH  &none
-                                    &mt LEFT_SHIFT TAB  &lt 1 RET           &mt LEFT_GUI SPACE    &mt LEFT_GUI ESCAPE  &lt 2 BACKSPACE  &mt LEFT_SHIFT DEL
+&none  &kp Q           &kp W        &kp E               &kp R               &kp T                         &kp Y                       &kp U            &kp I                 &kp O          &kp P              &none
+&none  &kp A           &kp S        &kp D               &kp F               &kp G                         &kp H                       &kp J            &kp K                 &kp L          &kp SEMI           &none
+&none  &mt LEFT_ALT Z  &mt LCTRL X  &mt LEFT_SHIFT C    &mt LC(LEFT_GUI) V  &mt LS(LA(LC(LEFT_GUI))) B    &mt LS(LA(LC(LEFT_GUI))) N  &mt LEFT_GUI M   &mt LEFT_SHIFT COMMA  &mt LCTRL DOT  &mt LEFT_ALT FSLH  &none
+                                    &mt LEFT_SHIFT TAB  &lt 1 RET           &mt LEFT_GUI SPACE            &mt LEFT_GUI ESCAPE         &lt 2 BACKSPACE  &mt LEFT_SHIFT DEL
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1           &kp N2        &kp N3             &kp N4           &kp N5          &kp N6    &kp N7           &kp N8             &kp N9        &kp N0            &none
-&none  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT     &trans            &trans
-&none  &mt LEFT_ALT F1  &mt LCTRL F2  &mt LEFT_SHIFT F3  &mt LEFT_GUI F4  &kp F5          &kp F6    &mt LEFT_GUI F7  &mt LEFT_SHIFT F8  &mt LCTRL F9  &mt LEFT_ALT F10  &none
-                                      &trans             &trans           &trans          &trans    &trans           &trans
+&none  &kp N1           &kp N2        &kp N3             &kp N4           &kp N5                         &kp N6                       &kp N7           &kp N8             &kp N9        &kp N0            &none
+&none  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4                   &kp LEFT                     &kp DOWN         &kp UP             &kp RIGHT     &trans            &trans
+&none  &mt LEFT_ALT F1  &mt LCTRL F2  &mt LEFT_SHIFT F3  &mt LEFT_GUI F4  &mt LS(LA(LC(LEFT_GUI))) F5    &mt F6 LS(LA(LC(LEFT_GUI)))  &mt LEFT_GUI F7  &mt LEFT_SHIFT F8  &mt LCTRL F9  &mt LEFT_ALT F10  &none
+                                      &trans             &trans           &trans                         &trans                       &trans           &trans
             >;
         };
 
