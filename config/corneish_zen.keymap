@@ -37,7 +37,7 @@
 &none  &kp Q           &kp W        &kp E               &kp R               &kp T                         &kp Y                       &kp U            &kp I                 &kp O          &kp P              &none
 &none  &kp A           &kp S        &kp D               &kp F               &kp G                         &kp H                       &kp J            &kp K                 &kp L          &kp SEMI           &none
 &none  &mt LEFT_ALT Z  &mt LCTRL X  &mt LEFT_SHIFT C    &mt LC(LEFT_GUI) V  &mt LS(LA(LC(LEFT_GUI))) B    &mt LS(LA(LC(LEFT_GUI))) N  &mt LEFT_GUI M   &mt LEFT_SHIFT COMMA  &mt LCTRL DOT  &mt LEFT_ALT FSLH  &none
-                                    &mt LEFT_SHIFT TAB  &lt 1 RET           &mt LEFT_GUI SPACE            &mt LEFT_GUI ESCAPE         &lt 2 BACKSPACE  &mt LEFT_SHIFT DEL
+                                    &mt LEFT_SHIFT TAB  &lt 1 RET           &mt LEFT_GUI SPACE            &mt LEFT_GUI ESCAPE         &lt 2 BACKSPACE  &kp LEFT_SHIFT
             >;
         };
 
