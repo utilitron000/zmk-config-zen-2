@@ -28,7 +28,7 @@
 &none  &kp Q           &kp W        &kp E               &kp R               &kp T                 &kp Y                   &kp U           &kp I                 &kp O          &kp P              &none
 &none  &kp A           &kp S        &kp D               &kp F               &kp G                 &kp H                   &kp J           &kp K                 &kp L          &kp SEMI           &none
 &none  &mt LEFT_ALT Z  &mt LCTRL X  &mt LEFT_SHIFT C    &mt LC(LEFT_GUI) V  &kp B                 &kp N                   &mt LEFT_GUI M  &mt LEFT_SHIFT COMMA  &mt LCTRL DOT  &mt LEFT_ALT FSLH  &none
-                                    &mt LEFT_SHIFT ESC  &mo 1               &mt LEFT_GUI SPACE    &mt LEFT_GUI BACKSPACE  &mo 2           &mt LEFT_SHIFT RET
+                                    &mt LEFT_SHIFT TAB  &lt 1 ESCAPE        &mt LEFT_GUI SPACE    &mt LEFT_GUI BACKSPACE  &lt 2 RET       &mt LEFT_SHIFT DEL
             >;
         };
 
@@ -42,10 +42,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1           &kp N2        &kp N3              &kp N4           &kp N5                &kp N6                  &kp N7           &kp N8                 &kp N9        &kp N0            &none
-&none  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3     &bt BT_SEL 4          &kp LEFT                &kp DOWN         &kp UP                 &kp RIGHT     &bt BT_CLR        &trans
-&none  &mt LEFT_ALT F1  &mt LCTRL F2  &mt LEFT_SHIFT F3   &mt LEFT_GUI F4  &kp F5                &kp F6                  &mt LEFT_GUI F7  &mt LEFT_SHIFT F8      &mt LCTRL F9  &mt LEFT_ALT F10  &none
-                                      &mt LEFT_SHIFT ESC  &trans           &mt LEFT_GUI SPACE    &mt LEFT_GUI BACKSPACE  &trans           &mt LEFT_SHIFT RETURN
+&none  &kp N1           &kp N2        &kp N3             &kp N4           &kp N5          &kp N6    &kp N7           &kp N8             &kp N9        &kp N0            &none
+&none  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &kp LEFT  &kp DOWN         &kp UP             &kp RIGHT     &bt BT_CLR        &trans
+&none  &mt LEFT_ALT F1  &mt LCTRL F2  &mt LEFT_SHIFT F3  &mt LEFT_GUI F4  &kp F5          &kp F6    &mt LEFT_GUI F7  &mt LEFT_SHIFT F8  &mt LCTRL F9  &mt LEFT_ALT F10  &none
+                                      &trans             &trans           &trans          &trans    &trans           &trans
             >;
         };
 
@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL   &kp AT          &kp HASH            &kp DLLR          &kp PRCNT            &kp CARET                 &kp AMPS          &kp STAR                &kp LPAR                  &kp RPAR  &none
-&none  &kp GRAVE  &kp MINUS       &kp EQUAL           &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &msc SCRL_LEFT            &msc SCRL_DOWN    &msc SCRL_UP            &msc SCRL_RIGHT           &kp BSLH  &none
-&none  &kp TILDE  &kp UNDERSCORE  &kp PLUS            &kp LEFT_BRACE    &kp RIGHT_BRACE      &mt K_VOLUME_DOWN K_BACK  &kp K_PLAY_PAUSE  &mt K_VOLUME_UP K_NEXT  &kp LS(LA(LC(LEFT_GUI)))  &kp PIPE  &none
-                                  &mt LEFT_SHIFT ESC  &trans            &mt LEFT_GUI TAB     &mt LEFT_SHIFT BACKSPACE  &trans            &mt LEFT_SHIFT RET
+&none  &kp EXCL   &kp AT          &kp HASH   &kp DLLR          &kp PRCNT            &kp CARET                 &kp AMPS          &kp STAR                &kp LPAR                  &kp RPAR  &none
+&none  &kp GRAVE  &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &msc SCRL_LEFT            &msc SCRL_DOWN    &msc SCRL_UP            &msc SCRL_RIGHT           &kp BSLH  &none
+&none  &kp TILDE  &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE      &mt K_VOLUME_DOWN K_BACK  &kp K_PLAY_PAUSE  &mt K_VOLUME_UP K_NEXT  &kp LS(LA(LC(LEFT_GUI)))  &kp PIPE  &none
+                                  &trans     &trans            &trans               &trans                    &trans            &trans
             >;
         };
     };
