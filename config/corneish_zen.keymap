@@ -51,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1        &kp N2        &kp N3        &kp N4           &kp N5                         &kp N6                       &kp N7           &kp N8        &kp N9     &kp N0   &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                   &kp LEFT                     &kp DOWN         &kp UP        &kp RIGHT  &trans   &trans
-&none  &kp F1        &kp F2        &mt LCTRL F3  &mt LEFT_ALT F4  &mt LS(LA(LC(LEFT_GUI))) F5    &mt F6 LS(LA(LC(LEFT_GUI)))  &mt LEFT_ALT F7  &mt LCTRL F8  &kp F9     &kp F10  &none
+&none  &kp N1        &kp N2        &kp N3        &kp N4           &kp N5                         &kp N6                       &kp N7           &kp N8        &kp N9     &kp N0         &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                   &kp LEFT                     &kp DOWN         &kp UP        &kp RIGHT  &kp LESS_THAN  &trans
+&none  &kp F1        &kp F2        &mt LCTRL F3  &mt LEFT_ALT F4  &mt LS(LA(LC(LEFT_GUI))) F5    &mt F6 LS(LA(LC(LEFT_GUI)))  &mt LEFT_ALT F7  &mt LCTRL F8  &kp F9     &kp F10        &none
                                    &trans        &trans           &trans                         &trans                       &trans           &trans
             >;
         };
@@ -68,9 +68,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL   &kp AT          &kp HASH   &kp DLLR          &kp PRCNT            &kp CARET                 &kp AMPS          &kp STAR                &kp LPAR         &kp RPAR       &none
-&none  &kp GRAVE  &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &msc SCRL_LEFT            &msc SCRL_DOWN    &msc SCRL_UP            &msc SCRL_RIGHT  &kp PIPE       &none
-&none  &kp TILDE  &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE      &mt K_VOLUME_DOWN K_BACK  &kp K_PLAY_PAUSE  &mt K_VOLUME_UP K_NEXT  &trans           &kp BACKSLASH  &none
+&none  &kp EXCL   &kp AT          &kp HASH   &kp DLLR          &kp PRCNT            &kp CARET                 &kp AMPS          &kp STAR                &kp LPAR          &kp RPAR       &none
+&none  &kp GRAVE  &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &msc SCRL_LEFT            &msc SCRL_DOWN    &msc SCRL_UP            &msc SCRL_RIGHT   &kp PIPE       &none
+&none  &kp TILDE  &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE      &mt K_VOLUME_DOWN K_BACK  &kp K_PLAY_PAUSE  &mt K_VOLUME_UP K_NEXT  &kp GREATER_THAN  &kp BACKSLASH  &none
                                   &trans     &trans            &trans               &trans                    &trans            &trans
             >;
         };
