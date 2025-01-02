@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1             &kp N2        &kp N3            &kp N4         &kp N5             &kp N6                       &kp N7          &kp N8                   &kp N9           &kp N0      &none
-&none  &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3   &bt BT_SEL 4       &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP             &msc SCRL_RIGHT  &caps_word  &trans
-&none  &kp K_VOLUME_DOWN  &kp K_BACK    &kp K_PLAY_PAUSE  &kp K_FORWARD  &kp K_VOLUME_UP    &kp LEFT                     &kp DOWN        &kp UP                   &kp RIGHT        &bt BT_CLR  &none
-                                        &trans            &trans         &trans             &mt LS(LA(LEFT_GUI)) ESCAPE  &trans          &mt LS(LEFT_GUI) RETURN
+&none  &kp N1             &kp N2        &kp N3            &kp N4         &kp N5          &kp N6                       &kp N7          &kp N8                   &kp N9           &kp N0      &none
+&none  &kp K_VOLUME_DOWN  &kp K_BACK    &kp K_PLAY_PAUSE  &kp K_FORWARD  &kp K_VOL_UP    &msc SCRL_LEFT               &msc SCRL_DOWN  &msc SCRL_UP             &msc SCRL_RIGHT  &caps_word  &trans
+&none  &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3   &bt BT_SEL 4    &kp LEFT                     &kp DOWN        &kp UP                   &kp RIGHT        &bt BT_CLR  &none
+                                        &trans            &trans         &trans          &mt LS(LA(LEFT_GUI)) ESCAPE  &trans          &mt LS(LEFT_GUI) RETURN
             >;
         };
 
