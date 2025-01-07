@@ -29,10 +29,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q           &kp W  &kp E                            &kp R        &kp T               &kp Y           &kp U            &kp I                     &kp O       &kp P              &none
-&none  &mt LEFT_ALT A  &kp S  &kp D                            &kp F        &kp G               &kp H           &kp J            &kp K                     &kp L       &mt LEFT_ALT SEMI  &none
-&none  &mt LCTRL Z     &kp X  &kp C                            &kp V        &kp B               &kp N           &kp M            &kp COMMA                 &kp PERIOD  &mt LCTRL FSLH     &none
-                              &mt LS(LA(LC(LEFT_GUI))) ESCAPE  &lt 1 SPACE  &mt LEFT_GUI TAB    &kp LEFT_SHIFT  &lt 2 BACKSPACE  &mt LA(LC(LEFT_GUI)) RET
+&none  &kp Q           &kp W            &kp E                            &kp R            &kp T               &kp Y           &kp U            &kp I                     &kp O       &kp P              &none
+&none  &mt LEFT_ALT A  &kp S            &kp D                            &kp F            &kp G               &kp H           &kp J            &kp K                     &kp L       &mt LEFT_ALT SEMI  &none
+&none  &mt LCTRL Z     &mt LS(LC(X)) X  &mt LS(LC(C)) C                  &mt LS(LC(V)) V  &kp B               &kp N           &kp M            &kp COMMA                 &kp PERIOD  &mt LCTRL FSLH     &none
+                                        &mt LS(LA(LC(LEFT_GUI))) ESCAPE  &lt 1 SPACE      &mt LEFT_GUI TAB    &kp LEFT_SHIFT  &lt 2 BACKSPACE  &mt LA(LC(LEFT_GUI)) RET
             >;
         };
 
