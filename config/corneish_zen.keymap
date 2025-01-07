@@ -31,6 +31,16 @@
             bindings = <&kp LS(LC(LEFT_GUI))>;
             key-positions = <36 41>;
         };
+
+        left_delete {
+            bindings = <&kp DEL>;
+            key-positions = <14 15 16>;
+        };
+
+        right_delete {
+            bindings = <&kp DEL>;
+            key-positions = <21 19 20>;
+        };
     };
 
     keymap {
