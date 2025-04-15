@@ -27,7 +27,8 @@
 
         btclear {
             bindings = <&bt BT_CLR>;
-            key-positions = <25 26 27 28>;
+            key-positions = <25 26 28 27>;
+            layers = <2>;
         };
     };
 
