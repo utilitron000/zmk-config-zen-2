@@ -65,7 +65,7 @@
 &trans  &kp GRAVE     &kp TILDE     &trans        &trans            &trans               &kp MINUS       &kp UNDERSCORE   &kp PLUS       &kp EQUAL          &kp PIPE       &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5               &kp NUMBER_6    &kp N7           &kp N8         &kp N9             &kp N0         &trans
 &trans  &trans        &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SQT        &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
-                                    &trans        &trans            &trans               &trans          &trans           &kp LG(SPACE)
+                                    &trans        &trans            &trans               &kp LG(TAB)     &trans           &kp LG(SPACE)
             >;
         };
 
