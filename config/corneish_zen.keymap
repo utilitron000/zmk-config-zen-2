@@ -45,14 +45,14 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E      &kp R            &kp T                 &kp Y                 &kp U           &kp I             &kp O    &kp P     &trans
-&trans  &kp A  &kp S  &kp D      &kp F            &kp G                 &kp H                 &kp J           &kp K             &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X  &kp C      &kp V            &kp B                 &kp N                 &kp M           &kp COMMA         &kp DOT  &kp FSLH  &trans
-                      &lt 2 ESC  &lt 1 BACKSPACE  &mt LEFT_GUI SPACE    &mt LEFT_CONTROL RET  &kp LEFT_SHIFT  &mt LEFT_ALT TAB
+&trans  &kp Q  &kp W  &kp E      &kp R        &kp T        &kp Y      &kp U            &kp I         &kp O    &kp P     &trans
+&trans  &kp A  &kp S  &kp D      &kp F        &kp G        &kp H      &kp J            &kp K         &kp L    &kp SQT   &trans
+&trans  &kp Z  &kp X  &kp C      &kp V        &kp B        &kp N      &kp M            &kp COMMA     &kp DOT  &kp FSLH  &trans
+                      &lt 1 ESC  &lt 2 SPACE  &lt 3 TAB    &lt 4 RET  &lt 5 BACKSPACE  &lt 6 DELETE
             >;
         };
 
-        lower_layer {
+        MEDIA {
             display-name = "NUMBER";
 
             // -----------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@
             >;
         };
 
-        raise_layer {
+        NAV {
             display-name = "NAV";
 
             // -----------------------------------------------------------------------------------------
@@ -83,6 +83,42 @@
 &trans  &kp K_VOLUME_DOWN  &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT    &kp K_VOLUME_UP    &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &trans  &trans
 &trans  &bt BT_SEL 0       &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
                                            &trans            &kp DEL       &trans             &mkp LCLK       &trans          &mkp RCLK
+            >;
+        };
+
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        SYM {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        NUM {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        FUN {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
