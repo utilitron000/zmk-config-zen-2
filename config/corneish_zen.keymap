@@ -99,10 +99,10 @@
 
         Button {
             bindings = <
-&trans  &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE     &kp K_UNDO    &kp K_UNDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT     &kp K_REDO    &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT  &trans        &trans      &kp LEFT_SHIFT  &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI  &trans
-&trans  &kp K_REDO    &kp K_CUT     &kp K_COPY  &kp K_PASTE     &kp K_UNDO    &kp K_UNDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT     &kp K_REDO    &trans
-                                    &mkp MCLK   &mkp LCLK       &mkp RCLK     &mkp RCLK   &mkp LCLK       &mkp MCLK
+&trans  &kp K_REDO    &kp K_CUT      &kp K_COPY     &kp K_PASTE     &kp K_UNDO    &kp K_UNDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT     &kp K_REDO    &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LCTRL      &kp LEFT_SHIFT  &trans        &trans      &kp LEFT_SHIFT  &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI  &trans
+&trans  &kp K_REDO    &kp LC(RS(X))  &kp LC(LS(C))  &kp RS(LC(V))   &kp K_UNDO    &kp K_UNDO  &kp K_PASTE     &kp K_COPY  &kp K_CUT     &kp K_REDO    &trans
+                                     &mkp MCLK      &mkp LCLK       &mkp RCLK     &mkp RCLK   &mkp LCLK       &mkp MCLK
             >;
 
             label = "Button";
